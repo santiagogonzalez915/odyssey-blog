@@ -207,12 +207,16 @@ h3 {
 .counter-digits {
   margin: 0;
   display: inline-block;
-  padding: 5px 8px;
-  background: #292929;
-  color: #8cff8c;
+  padding: 6px 10px;
+  background: linear-gradient(#efe4d3, #dcc9ac);
+  color: #5a4730;
   font-family: "Courier New", Courier, monospace;
-  border: 1px solid #111;
-  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+  border: 1px solid #b49e80;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 #f7efdf inset, 0 0 0 1px #cfbb9d;
+  letter-spacing: 0.12em;
+  text-shadow: 0 1px 0 #f8f1e4;
 }
 
 .mono-inline {
