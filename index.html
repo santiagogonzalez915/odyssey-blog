@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maple & Static | Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <p class="small-meta">Last updated: May 2026</p>
+        <h1>Maple &amp; Static</h1>
+        <p class="tagline">Notes on code, campus life, and internet nostalgia.</p>
+        <nav class="top-nav" aria-label="Main">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="about.html">About</a>
+          <a href="archive.html">Archive</a>
+          <a href="#subscribe">RSS</a>
+        </nav>
+      </header>
+
+      <main class="layout">
+        <section class="content">
+          <div class="module">
+            <h2 class="module-title">Latest Posts</h2>
+            <p class="module-intro">
+              Welcome to the front page. New entries go on top, old entries drift into the archive.
+            </p>
+          </div>
+          <div id="posts" class="posts-list"></div>
+        </section>
+
+        <aside class="sidebar" aria-label="Sidebar widgets">
+          <section class="widget">
+            <h3>Recent Posts</h3>
+            <ul class="recent-posts-widget" data-limit="5"></ul>
+          </section>
+
+          <section class="widget">
+            <h3>About This Blog</h3>
+            <p>
+              A retro-inspired static blog made with plain HTML, CSS, and JS.
+              No frameworks, no build steps, just vibes.
+            </p>
+          </section>
+
+          <section class="widget" id="subscribe">
+            <h3>Subscribe</h3>
+            <p><span class="rss-dot">●</span> RSS feed coming soon</p>
+            <p class="tiny-text">Old school readers still welcome.</p>
+          </section>
+
+          <section class="widget">
+            <h3>Blogroll</h3>
+            <ul>
+              <li><a href="#">Old Web Design Journal</a></li>
+              <li><a href="#">Campus Night Owl</a></li>
+              <li><a href="#">Minimal Terminal</a></li>
+            </ul>
+          </section>
+
+          <section class="widget">
+            <h3>Tag Cloud</h3>
+            <p class="tags">
+              <a href="#">web</a>
+              <a href="#" class="big">css</a>
+              <a href="#">college</a>
+              <a href="#" class="big">retro</a>
+              <a href="#">javascript</a>
+            </p>
+          </section>
+
+          <section class="widget counter">
+            <h3>Visitor Counter</h3>
+            <p class="counter-digits">000420</p>
+            <p class="tiny-text">For decorative nostalgia only.</p>
+          </section>
+        </aside>
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; 2026 Maple &amp; Static. Powered by hand-written HTML.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

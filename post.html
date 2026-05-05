@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maple & Static | Post</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <p class="small-meta">Single Post View</p>
+        <h1>Maple &amp; Static</h1>
+        <p class="tagline">Notes on code, campus life, and internet nostalgia.</p>
+        <nav class="top-nav" aria-label="Main">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="archive.html">Archive</a>
+        </nav>
+      </header>
+
+      <main class="layout">
+        <section class="content">
+          <div id="single-post"></div>
+        </section>
+
+        <aside class="sidebar" aria-label="Sidebar widgets">
+          <section class="widget">
+            <h3>Recent Posts</h3>
+            <ul class="recent-posts-widget" data-limit="5"></ul>
+          </section>
+
+          <section class="widget">
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="index.html">Back to Blog Index</a></li>
+              <li><a href="about.html">About Page</a></li>
+              <li><a href="archive.html">Full Archive</a></li>
+            </ul>
+          </section>
+
+          <section class="widget">
+            <h3>Retro Note</h3>
+            <p>
+              This post page uses query links like
+              <span class="mono-inline">post.html?id=...</span>
+              for simple static hosting.
+            </p>
+          </section>
+        </aside>
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; 2026 Maple &amp; Static. Powered by hand-written HTML.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
