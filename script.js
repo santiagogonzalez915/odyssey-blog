@@ -1,7 +1,7 @@
 const comments = {
   "still-no-signal": [
     { author: "PallasG", date: "April 13, 2006", text: "Stay strong, Penelope. The sea has a way of delaying even the most determined travelers. He will return." },
-    { author: "T_Odysseus", date: "April 13, 2006", text: "mom is this you?? you said you weren't going to start a blog lol" },
+    { author: "xxx_txmachus_xxx", date: "April 13, 2006", text: "mom is this you?? you said you weren't going to start a blog lol" },
   ],
   "running-the-house": [
     { author: "EurymachosXO", date: "April 26, 2006", text: "Hey Pen, if you ever need help around the house just say the word ;)" },
@@ -9,7 +9,7 @@ const comments = {
   ],
   "neighbors-keep-knocking": [
     { author: "AntinousReal", date: "May 12, 2006", text: "We're just being neighborly Penelope, no need to make it weird lol" },
-    { author: "T_Odysseus", date: "May 13, 2006", text: "mom these guys are SO weird. just tell them to leave" },
+    { author: "xxx_txmachus_xxx", date: "May 13, 2006", text: "mom these guys are SO weird. just tell them to leave" },
   ],
   "arguments-with-dad": [
     { author: "IcariumDad", date: "June 2, 2006", text: "I only want what's best for you, sweetheart. Call me back." },
@@ -24,16 +24,16 @@ const comments = {
   "exaggerated-stories": [
     { author: "AntinousReal", date: "September 25, 2006", text: "Yeah those 'adventures' sound totally made up lol. Very convenient there's no footage" },
     { author: "UlyssesNotHere", date: "April 5, 2007", text: "now that I'm back home I can confidently say that those stories are 100% true. mostly." },
-    { author: "T_Odysseus", date: "April 5, 2007", text: "wait dad you can comment on here???" },
+    { author: "xxx_txmachus_xxx", date: "April 5, 2007", text: "wait dad you can comment on here???" },
   ],
   "telemachus-troubles": [
-    { author: "T_Odysseus", date: "March 28, 2007", text: "mom i told you not to post about me. oh my god" },
+    { author: "xxx_txmachus_xxx", date: "March 28, 2007", text: "mom i told you not to post about me. oh my god" },
     { author: "PallasG", date: "March 29, 2007", text: "The boy has more strength in him than he knows. As does his mother." },
   ],
   "been-found-out": [
     { author: "AntinousReal", date: "March 31, 2007", text: "Penelope we all kind of knew what was going on. Time to make a decision." },
     { author: "EurymachosXO", date: "March 31, 2007", text: "Just saying, I would have done those renovations for you :)" },
-    { author: "T_Odysseus", date: "April 1, 2007", text: "these guys are actually the worst" },
+    { author: "xxx_txmachus_xxx", date: "April 1, 2007", text: "these guys are actually the worst" },
   ],
   "prank-show": [
     { author: "AntinousReal", date: "April 1, 2007", text: "lmaooo who even was this old guy. April Fools I guess" },
@@ -73,7 +73,7 @@ const posts = [
     excerpt:
       "Good news: Uly is on his way back home! Bad news: Telemachus' classmates have seen his dad's videos.",
     content: [
-      "It's been a little while, but man I just remembered how big of jerks kids are. Telemachus came home furious today, saying that he was bullied for what his dad posted online. I tried comforting him, but he just went back to his room and closed his door. I guess he just needs some space. I know Uly didn't have this in mind when he first started making his content, but I hope for Telemachus' sake he ends up stopping soon. I hate to see my baby boy cry like this, and I don't know if it'll stop any time soon unless Uly stops. I'll have to talk to him as soon as he gets home about this job of his.",
+      "It's been a little while, but man I just remembered how big of jerks kids are. Telemachus came home furious today, saying that he was bullied for what his dad posted online. I tried comforting him, but he just went back to his room and slammed his door shut. I guess he just needs some space. I know Uly didn't have this in mind when he first started making his content, but I hope for Telemachus' sake he ends up stopping soon. I hate to see my baby boy like this, and I don't know if it'll get better any time soon unless Uly stops. I'll have to talk to him as soon as he gets home about this job of his. And on the bright side — he finally emailed to say he's on his way back. So at least there's that.",
     ],
   },
   {
@@ -95,7 +95,7 @@ const posts = [
     excerpt:
       "Was able to find a way to push off the neighbors for now. Not sure how long I can keep it up though.",
     content: [
-      "Honestly I'm pretty shocked that this excuse even worked in the first place. It was Telemachus' idea, but basically I said that I'm not going to make a decision until everything is stable in my life. So, that means that I have to finish my kitchen renovations first. Every time I think I'm almost done, I realize something has to be redone. But I don't thinks I can keep this an unfinished product for much longer; the neighbors are pressing me a bit more to see when the renovations will be complete. Not only has it bought me some time, but it's also shown me how incompetent they are. Uly would've offered to do it himself if he was here. But now these so called 'men' are twiddling their thumbs instead of actually helping me. I would never settle for one of them.",
+      "Honestly I'm pretty shocked that this excuse even worked in the first place. It was Telemachus' idea, but basically I said that I'm not going to make a decision until everything is stable in my life. So, that means that I have to finish my kitchen renovations first. Every time I think I'm almost done, I realize something has to be redone. But I don't think I can keep this unfinished for much longer; the neighbors are pressing me more and more to see when the renovations will be done. Not only has it bought me some time, but it's also shown me how incompetent they are. Uly would've offered to do it himself if he was here. But now these so called 'men' are twiddling their thumbs instead of actually helping me. I would never settle for one of them.",
     ],
   },
   {
