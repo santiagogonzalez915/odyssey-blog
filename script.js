@@ -166,7 +166,7 @@ function renderCounterDigits(value) {
 }
 
 if (postsList) {
-  posts.forEach((post) => {
+  posts.slice(0, 3).forEach((post) => {
     const card = document.createElement("article");
     card.className = "post-card";
     card.innerHTML = `
